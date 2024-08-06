@@ -56,8 +56,7 @@ order.addEventListener("click", () => {
         phone: phone,
         email: email,
         additional_info: additional_info,
-        appeal: appeal,
-        callbacktype: callbacktype
+        appeal: appeal
     }
 
     tg.sendData(JSON.stringify(data));
