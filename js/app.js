@@ -34,21 +34,6 @@ order.addEventListener("click", () => {
     let email = document.getElementById("user_email").value;
     let additional_info = document.getElementById("additional_info").value;
     let appeal = document.getElementById("appeal").value;
-    document.getElementById("error").InnerText = '';
-
-    if(user_name.length  < 3)  {
-        document.getElementById("error").innerText = "Некорректно заполнено Имя";
-        return;
-    }
-    if(email.length  < 3) {
-        document.getElementById("error").innerText = "Некорректно заполнена Почта";
-        return;
-    }
-
-    if(phone.length < 7) {
-        document.getElementById("error").innerText = "Некорректно заполнен Телефон";
-        return;
-    }
 
     let data = {
         name: name,
