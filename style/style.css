@@ -4,15 +4,15 @@ body {
 }
 
 .container {
-  width: 1200px !important;
+  width: 800px !important;
   padding: 0 !important;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 10px;
 
-  @media screen and (min-width: 992px) and (max-width: 1439px) {
-    max-width: 1279px !important;
+  @media screen and (min-width: 792px) and (max-width: 1239px) {
+    max-width: 1079px !important;
     padding: 0 !important;
-    margin: 0 80px !important;
+    margin: 0 60px !important;
     width: auto !important;
   }
 
@@ -27,9 +27,9 @@ body {
 .gradient-cards {
   display: grid;
   grid-template-columns: repeat(1, 2fr);
-  gap: 32px;
-  padding: 30px;
-  @media screen and (max-width: 991px) {
+  gap: 22px;
+  padding: 20px;
+  @media screen and (max-width: 791px) {
     grid-template-columns: 1fr;
   }
 }
@@ -38,15 +38,15 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   padding: 0 !important;
-  margin-bottom: 40px;
-  font-size: 40px;
+  margin-bottom: 30px;
+  font-size: 30px;
   color: #fff;
-  font-weight: 600;
-  line-height: 60px;
+  font-weight: 400;
+  line-height: 40px;
 }
 
 .card {
-  max-width: 550px;
+  max-width: 350px;
   border: 0;
   width: 100%;
   margin-inline: auto;
